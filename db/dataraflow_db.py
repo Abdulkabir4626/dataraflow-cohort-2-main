@@ -8,6 +8,7 @@ import pandas as pd
 import pymssql
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
+from urllib.parse import quote_plus
 
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 
